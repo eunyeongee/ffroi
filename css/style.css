@@ -199,11 +199,11 @@ section#s1 .yellow .y_back .y_product.active {
     opacity: 1;
 }
 section#s1 .txt {
-    width:45vw;
+    width:800px;
     position:absolute;
-    top:40%;
+    top:45%;
     left:50%;
-    margin-left:-22.5vw;
+    transform:translate(-50%,-50%);
     text-align: center;
     font-weight: bold;
     opacity:0;
@@ -220,12 +220,42 @@ section#s1 .txt .we{
     
 }
 
-section#s1>.txt>p {
-    margin-top:1%;
-    height:6vh;
+section#s1> .txt > .we_txt {
+    margin-top:5%;
     line-height: 4vh;
     font-size:1.1vw;
     
+}
+
+section#s1> .txt .we_btn { 
+    margin:0 auto;
+    margin-top:4%;
+    
+    width:170px;
+    height:50px;
+    box-sizing: border-box;
+    
+    line-height: 50px;
+    
+    
+    text-align: center;
+    border:2px #000 solid;
+    border-radius: 30px;
+    
+    transition:all 0.3s;
+
+}
+
+section#s1> .txt .we_btn a {
+    font-size:18px;
+}
+
+section#s1> .txt .we_btn:hover {
+    background:#000;
+}
+
+section#s1> .txt .we_btn:hover a {
+    color:#fff;
 }
 
 section#s1_2 {
